@@ -1,0 +1,151 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: d Deive, a, LIC=UJWEV-PTCYZ-BE2HH-W2PNA-I0FQQ-RVN06
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\CODE\STM32F429\lwip_NOOS\Project\lwip_noos.uvprojx
+Project File Date:  02/27/2019
+
+<h2>Output:</h2>
+Build target 'lwip_noos'
+compiling system_stm32f4xx.c...
+compiling misc.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_cec.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_cryp_aes.c...
+compiling stm32f4xx_cryp_des.c...
+compiling stm32f4xx_cryp_tdes.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_dbgmcu.c...
+compiling stm32f4xx_dcmi.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_dma2d.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_flash_ramfunc.c...
+compiling stm32f4xx_fmc.c...
+compiling stm32f4xx_fmpi2c.c...
+compiling stm32f4xx_fsmc.c...
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(137): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] = 0x000030DB;    
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(142): error:  #20: identifier "FSMC_Bank1" is undefined
+      FSMC_Bank1->BTCR[FSMC_Bank] = 0x000030D2; 
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(144): error:  #20: identifier "FSMC_Bank1" is undefined
+    FSMC_Bank1->BTCR[FSMC_Bank + 1] = 0x0FFFFFFF;
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(145): error:  #20: identifier "FSMC_Bank1E" is undefined
+    FSMC_Bank1E->BWTR[FSMC_Bank] = 0x0FFFFFFF;  
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(183): error:  #20: identifier "FSMC_Bank1" is undefined
+    tmpbcr = FSMC_Bank1->BTCR[FSMC_NORSRAMInitStruct->FSMC_Bank];
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(187): error:  #20: identifier "FSMC_BCR1_MBKEN" is undefined
+    tmpbcr &= ((uint32_t)~(FSMC_BCR1_MBKEN    | FSMC_BCR1_MUXEN    | FSMC_BCR1_MTYP     | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(187): error:  #20: identifier "FSMC_BCR1_MUXEN" is undefined
+    tmpbcr &= ((uint32_t)~(FSMC_BCR1_MBKEN    | FSMC_BCR1_MUXEN    | FSMC_BCR1_MTYP     | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(187): error:  #20: identifier "FSMC_BCR1_MTYP" is undefined
+    tmpbcr &= ((uint32_t)~(FSMC_BCR1_MBKEN    | FSMC_BCR1_MUXEN    | FSMC_BCR1_MTYP     | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(188): error:  #20: identifier "FSMC_BCR1_MWID" is undefined
+                           FSMC_BCR1_MWID      | FSMC_BCR1_FACCEN   | FSMC_BCR1_BURSTEN  | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(188): error:  #20: identifier "FSMC_BCR1_FACCEN" is undefined
+                           FSMC_BCR1_MWID      | FSMC_BCR1_FACCEN   | FSMC_BCR1_BURSTEN  | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(188): error:  #20: identifier "FSMC_BCR1_BURSTEN" is undefined
+                           FSMC_BCR1_MWID      | FSMC_BCR1_FACCEN   | FSMC_BCR1_BURSTEN  | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(189): error:  #20: identifier "FSMC_BCR1_WAITPOL" is undefined
+                           FSMC_BCR1_WAITPOL   | FSMC_BCR1_WRAPMOD  | FSMC_BCR1_WAITCFG  | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(189): error:  #20: identifier "FSMC_BCR1_WRAPMOD" is undefined
+                           FSMC_BCR1_WAITPOL   | FSMC_BCR1_WRAPMOD  | FSMC_BCR1_WAITCFG  | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(189): error:  #20: identifier "FSMC_BCR1_WAITCFG" is undefined
+                           FSMC_BCR1_WAITPOL   | FSMC_BCR1_WRAPMOD  | FSMC_BCR1_WAITCFG  | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(190): error:  #20: identifier "FSMC_BCR1_WREN" is undefined
+                           FSMC_BCR1_WREN      | FSMC_BCR1_WAITEN   | FSMC_BCR1_EXTMOD   | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(190): error:  #20: identifier "FSMC_BCR1_WAITEN" is undefined
+                           FSMC_BCR1_WREN      | FSMC_BCR1_WAITEN   | FSMC_BCR1_EXTMOD   | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(190): error:  #20: identifier "FSMC_BCR1_EXTMOD" is undefined
+                           FSMC_BCR1_WREN      | FSMC_BCR1_WAITEN   | FSMC_BCR1_EXTMOD   | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(191): error:  #20: identifier "FSMC_BCR1_ASYNCWAIT" is undefined
+                           FSMC_BCR1_ASYNCWAIT | FSMC_BCR1_CBURSTRW));
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(191): error:  #20: identifier "FSMC_BCR1_CBURSTRW" is undefined
+                           FSMC_BCR1_ASYNCWAIT | FSMC_BCR1_CBURSTRW));
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(218): error:  #20: identifier "FSMC_BTR1_ADDSET" is undefined
+    tmpbtr &= ((uint32_t)~(FSMC_BTR1_ADDSET | FSMC_BTR1_ADDHLD | FSMC_BTR1_DATAST | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(218): error:  #20: identifier "FSMC_BTR1_ADDHLD" is undefined
+    tmpbtr &= ((uint32_t)~(FSMC_BTR1_ADDSET | FSMC_BTR1_ADDHLD | FSMC_BTR1_DATAST | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(218): error:  #20: identifier "FSMC_BTR1_DATAST" is undefined
+    tmpbtr &= ((uint32_t)~(FSMC_BTR1_ADDSET | FSMC_BTR1_ADDHLD | FSMC_BTR1_DATAST | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(219): error:  #20: identifier "FSMC_BTR1_BUSTURN" is undefined
+                         FSMC_BTR1_BUSTURN | FSMC_BTR1_CLKDIV | FSMC_BTR1_DATLAT | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(219): error:  #20: identifier "FSMC_BTR1_CLKDIV" is undefined
+                         FSMC_BTR1_BUSTURN | FSMC_BTR1_CLKDIV | FSMC_BTR1_DATLAT | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(219): error:  #20: identifier "FSMC_BTR1_DATLAT" is undefined
+                         FSMC_BTR1_BUSTURN | FSMC_BTR1_CLKDIV | FSMC_BTR1_DATLAT | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(220): error:  #20: identifier "FSMC_BTR1_ACCMOD" is undefined
+                         FSMC_BTR1_ACCMOD));
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(244): error:  #20: identifier "FSMC_Bank1E" is undefined
+      tmpbwr = FSMC_Bank1E->BWTR[FSMC_NORSRAMInitStruct->FSMC_Bank];
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(247): error:  #20: identifier "FSMC_BWTR1_ADDSET" is undefined
+      tmpbwr &= ((uint32_t)~(FSMC_BWTR1_ADDSET | FSMC_BWTR1_ADDHLD | FSMC_BWTR1_DATAST | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(247): error:  #20: identifier "FSMC_BWTR1_ADDHLD" is undefined
+      tmpbwr &= ((uint32_t)~(FSMC_BWTR1_ADDSET | FSMC_BWTR1_ADDHLD | FSMC_BWTR1_DATAST | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(247): error:  #20: identifier "FSMC_BWTR1_DATAST" is undefined
+      tmpbwr &= ((uint32_t)~(FSMC_BWTR1_ADDSET | FSMC_BWTR1_ADDHLD | FSMC_BWTR1_DATAST | \
+..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c: 0 warnings, 30 errors
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_ltdc.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_qspi.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sai.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spdifrx.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+compiling main.c...
+..\USER\main.c(4): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\main.c: 1 warning, 0 errors
+compiling stm32f4xx_it.c...
+..\USER\stm32f4xx_it.c(66): warning:  #223-D: function "printf" declared implicitly
+        printf("hardfault!!!\n");
+..\USER\stm32f4xx_it.c(146): warning:  #223-D: function "TimingDelay_Decrement" declared implicitly
+        TimingDelay_Decrement();
+..\USER\stm32f4xx_it.c: 2 warnings, 0 errors
+".\Objects\lwip_noos.axf" - 30 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\CODE\STM32F429\lwip_NOOS\Project\RTE
+  D:\keil\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM4\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

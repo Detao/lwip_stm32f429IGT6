@@ -1,0 +1,14 @@
+..\output\altcp.o: ..\middle\lwip-2.1.2\src\core\altcp.c
+..\output\altcp.o: ..\middle\lwip-2.1.2\src\include\lwip/opt.h
+..\output\altcp.o: ..\USER\lwipopts.h
+..\output\altcp.o: ..\middle\lwip-2.1.2\src\include\lwip/debug.h
+..\output\altcp.o: ..\middle\lwip-2.1.2\src\include\lwip/arch.h
+..\output\altcp.o: ..\USER\lwip_port\arch/cc.h
+..\output\altcp.o: ..\USER\lwip_port\arch/cpu.h
+..\output\altcp.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\altcp.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+..\output\altcp.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\altcp.o: D:\keil\ARM\ARMCC\Bin\..\include\inttypes.h
+..\output\altcp.o: D:\keil\ARM\ARMCC\Bin\..\include\limits.h
+..\output\altcp.o: D:\keil\ARM\ARMCC\Bin\..\include\ctype.h
+..\output\altcp.o: ..\middle\lwip-2.1.2\src\include\lwip/opt.h

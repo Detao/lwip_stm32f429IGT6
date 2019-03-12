@@ -1,0 +1,14 @@
+..\output\api_lib.o: ..\middle\lwip-2.1.2\src\api\api_lib.c
+..\output\api_lib.o: ..\middle\lwip-2.1.2\src\include\lwip/opt.h
+..\output\api_lib.o: ..\USER\lwipopts.h
+..\output\api_lib.o: ..\middle\lwip-2.1.2\src\include\lwip/debug.h
+..\output\api_lib.o: ..\middle\lwip-2.1.2\src\include\lwip/arch.h
+..\output\api_lib.o: ..\USER\lwip_port\arch/cc.h
+..\output\api_lib.o: ..\USER\lwip_port\arch/cpu.h
+..\output\api_lib.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\api_lib.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+..\output\api_lib.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\api_lib.o: D:\keil\ARM\ARMCC\Bin\..\include\inttypes.h
+..\output\api_lib.o: D:\keil\ARM\ARMCC\Bin\..\include\limits.h
+..\output\api_lib.o: D:\keil\ARM\ARMCC\Bin\..\include\ctype.h
+..\output\api_lib.o: ..\middle\lwip-2.1.2\src\include\lwip/opt.h
